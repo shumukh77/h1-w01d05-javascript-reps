@@ -30,15 +30,15 @@ c = a;
 ### Your solution here:
 1.  What is `a`?
 ```
-a is (your answer here)
+a is (bongos)
 ```
 2.  What is `b`?
 ```
-b is (your answer here)
+b is (true)
 ```
 3.  What is `c`?
 ```
-c is (your answer here)
+c is (1)
 ```
 
 Now run it and don't update your answers above.  Any surprises?  Don't worry about submitting wrong answers, it's all good :3
@@ -60,7 +60,7 @@ Result should be:
 ```
 
 ```js
-// your answer here
+console.log("please" + " squeeze" + " the" + " cheese.");
 ```
 
 ## 3 - Variable Assignments
@@ -75,14 +75,19 @@ var num2 = 10;
 Let's do this in parts:
 1. How can we make `num3` equal to the sum of `num1` and `num2`?
 ```js
-// your solution here
+// var num3 = num1 + num2;
 ```
 2. Use variables `num1`, `num2` and `num3` to fill in the `console.log()` to complete the sentence: 
 
 >The sum of 5 and 10 is 15
 
 ```js
-console.log(/* your answer here */)
+var num1 = 5;
+var num2 = 10;
+var num3 = num1 + num2
+
+console.log("The" + " sum" + " of " + num1 + " and " + num2 + " is " + num3);
+
 ```
 
 ## 4 - Comparisons
@@ -100,14 +105,14 @@ h) 9 !== 8 + 1
 ### Your solution here:
 Write `true` or `false` based on the list above
 ```
-a) 
-b)  
-c)
-d) 
-e) 
-f) 
-g) 
-h) 
+a) false
+b) true 
+c) false
+d) false
+e) false
+f) false
+g) true
+h) false
 ```
 
 ## 5 - Functions:
@@ -115,15 +120,21 @@ h)
 * Write a function called `timeTwo` that takes in a parameter `num` and `return`'s that number multiplied by 2.
 
 ```js
-// your solution here
+function timeTwo(num){
+return num * 2;
+}
+console.log (timeTwo(3));
 ```
-
+ 
 ## 6 - Loops:
 
 *  Write a `for` loop so that the function outputs all values between 0 and any number passed into the `maxNum` parameter.
    
 ```js
-// your answer here
+// function number(maxNum) {
+   for (var i = 0; i >= maxNum; i++)
+   }
+   console.log(i);
 ```
 
 ## 7 - Arrays:
@@ -131,24 +142,29 @@ h)
 *  Create a variable `favoriteMovies` that is equal to an array of your 5 favorite movies:
 
 ```js
-// your answer here
+// var favoriteMovies = ["7 pounds" , "The Call" , "Leon: The Professional" , "The Pursuit of Happiness" , "Taken"]
 ```
 
 *  How would you replace the 3rd favorite movie with the value `Toy Story 3`?
 
 ```js
-// your answer here
+// favoriteMovies[2] = "Toy Story 3";
+console.log(favoriteMovies);
 ```
 
 *   How would you remove the last movie from that array?
 ```js
-// your answer here
+// favoriteMovies.pop();
+console.log(favoriteMovies);
 ```
 
 *   **Write a function** called `addMovie` that takes a parameter of `newMovie` that adds that movie to the end of the array.  (i.e. addMovie('Titanic')) adds Titanic to the end of the array.
 
 ```js
-// your answer here
+// function addMovie(newMovie){
+   favoriteMovies.push(newMovie);
+   }
+   console.log(addMovie(Titanic));
 ```
 
 
