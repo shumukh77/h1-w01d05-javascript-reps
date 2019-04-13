@@ -162,10 +162,11 @@ console.log(favoriteMovies);
 
 ```js
 // function addMovie(newMovie){
-   favoriteMovies.push(newMovie);
-   }
-   console.log(addMovie(Titanic));
-```
+return favoriteMovies.push(newMovie);
+}
+addMovie('Titanic');
+console.log(favoriteMovies);
+```//
 
 
 # Part 2: Project Progress: HTML and CSS!
